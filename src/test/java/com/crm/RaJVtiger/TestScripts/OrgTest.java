@@ -24,7 +24,7 @@ public class OrgTest extends BaseClass{
 	  //fetch organization name in excel sheet
 		String expectedOrgName=eLib.getDataFromExcel("CreateCon", 4, 3)+jLib.getrandomNum();
 
-		
+		System.out.println("Rajesh");
 		System.out.println("organization name is "+expectedOrgName);
 		
 		String industry=eLib.getDataFromExcel("CreateCon", 8, 3);
