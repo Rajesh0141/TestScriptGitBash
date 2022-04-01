@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="16" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="131949" started-at="2022-04-01T19:07:12 IST" finished-at="2022-04-01T19:09:24 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="CreateCompaignChooseProjectTest.createCampaignChooseProduct()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="createCampaignChooseProduct" class="com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest"/>
+        <method signature="CreateContactwithChooseOrganizationTest.createContactchooseOrganization()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest@6737fd8f]" name="createContactchooseOrganization" class="com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest"/>
+        <method signature="CreateProductTest.createProduct()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateProductTest@a7e666]" name="createProduct" class="com.crm.RaJVtiger.TestScripts.CreateProductTest"/>
+      </group> <!-- smoke -->
+      <group name="IntegrationTest">
+        <method signature="CreateCompaignChooseProjectTest.createCampaignChooseProduct()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="createCampaignChooseProduct" class="com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest"/>
+        <method signature="CreateContactwithChooseOrganizationTest.createContactchooseOrganization()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest@6737fd8f]" name="createContactchooseOrganization" class="com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest"/>
+      </group> <!-- IntegrationTest -->
+      <group name="smokeTest">
+        <method signature="CreateOrganigationTest.createOrganization()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateOrganigationTest@72b6cbcc]" name="createOrganization" class="com.crm.RaJVtiger.TestScripts.CreateOrganigationTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Command line test" duration-ms="131949" started-at="2022-04-01T19:07:12 IST" finished-at="2022-04-01T19:09:24 IST">
+      <class name="com.crm.RaJVtiger.TestScripts.CreateProductTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateProductTest@a7e666]" name="launchBrowser" is-config="true" duration-ms="2607" started-at="2022-04-01T19:09:00 IST" finished-at="2022-04-01T19:09:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginIntoApplication()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateProductTest@a7e666]" name="loginIntoApplication" is-config="true" duration-ms="4281" started-at="2022-04-01T19:09:03 IST" finished-at="2022-04-01T19:09:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApplication -->
+        <test-method status="PASS" signature="createProduct()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateProductTest@a7e666]" name="createProduct" duration-ms="14018" started-at="2022-04-01T19:09:07 IST" finished-at="2022-04-01T19:09:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method status="PASS" signature="logoutFromApplication()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateProductTest@a7e666]" name="logoutFromApplication" is-config="true" duration-ms="2301" started-at="2022-04-01T19:09:21 IST" finished-at="2022-04-01T19:09:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateProductTest@a7e666]" name="closeBrowser" is-config="true" duration-ms="764" started-at="2022-04-01T19:09:23 IST" finished-at="2022-04-01T19:09:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.RaJVtiger.TestScripts.CreateProductTest -->
+      <class name="com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest@6737fd8f]" name="launchBrowser" is-config="true" duration-ms="2897" started-at="2022-04-01T19:07:52 IST" finished-at="2022-04-01T19:07:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginIntoApplication()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest@6737fd8f]" name="loginIntoApplication" is-config="true" duration-ms="4537" started-at="2022-04-01T19:07:55 IST" finished-at="2022-04-01T19:07:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApplication -->
+        <test-method status="PASS" signature="createContactchooseOrganization()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest@6737fd8f]" name="createContactchooseOrganization" duration-ms="31693" started-at="2022-04-01T19:07:59 IST" finished-at="2022-04-01T19:08:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactchooseOrganization -->
+        <test-method status="PASS" signature="logoutFromApplication()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest@6737fd8f]" name="logoutFromApplication" is-config="true" duration-ms="2282" started-at="2022-04-01T19:08:31 IST" finished-at="2022-04-01T19:08:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest@6737fd8f]" name="closeBrowser" is-config="true" duration-ms="812" started-at="2022-04-01T19:08:33 IST" finished-at="2022-04-01T19:08:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.RaJVtiger.TestScripts.CreateContactwithChooseOrganizationTest -->
+      <class name="com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest">
+        <test-method status="PASS" signature="beforeSiute()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="beforeSiute" is-config="true" duration-ms="0" started-at="2022-04-01T19:07:12 IST" finished-at="2022-04-01T19:07:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSiute -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-04-01T19:07:12 IST" finished-at="2022-04-01T19:07:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="launchBrowser" is-config="true" duration-ms="3522" started-at="2022-04-01T19:07:12 IST" finished-at="2022-04-01T19:07:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginIntoApplication()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="loginIntoApplication" is-config="true" duration-ms="4129" started-at="2022-04-01T19:07:16 IST" finished-at="2022-04-01T19:07:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApplication -->
+        <test-method status="PASS" signature="createCampaignChooseProduct()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="createCampaignChooseProduct" duration-ms="28711" started-at="2022-04-01T19:07:20 IST" finished-at="2022-04-01T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignChooseProduct -->
+        <test-method status="PASS" signature="logoutFromApplication()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="logoutFromApplication" is-config="true" duration-ms="2228" started-at="2022-04-01T19:07:49 IST" finished-at="2022-04-01T19:07:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="closeBrowser" is-config="true" duration-ms="720" started-at="2022-04-01T19:07:51 IST" finished-at="2022-04-01T19:07:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-04-01T19:09:24 IST" finished-at="2022-04-01T19:09:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="AfterSiute()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest@79be0360]" name="AfterSiute" is-config="true" duration-ms="0" started-at="2022-04-01T19:09:25 IST" finished-at="2022-04-01T19:09:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSiute -->
+      </class> <!-- com.crm.RaJVtiger.TestScripts.CreateCompaignChooseProjectTest -->
+      <class name="com.crm.RaJVtiger.TestScripts.CreateOrganigationTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateOrganigationTest@72b6cbcc]" name="launchBrowser" is-config="true" duration-ms="2718" started-at="2022-04-01T19:08:34 IST" finished-at="2022-04-01T19:08:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginIntoApplication()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateOrganigationTest@72b6cbcc]" name="loginIntoApplication" is-config="true" duration-ms="5113" started-at="2022-04-01T19:08:37 IST" finished-at="2022-04-01T19:08:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApplication -->
+        <test-method status="PASS" signature="createOrganization()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateOrganigationTest@72b6cbcc]" name="createOrganization" duration-ms="15205" started-at="2022-04-01T19:08:42 IST" finished-at="2022-04-01T19:08:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method status="PASS" signature="logoutFromApplication()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateOrganigationTest@72b6cbcc]" name="logoutFromApplication" is-config="true" duration-ms="2265" started-at="2022-04-01T19:08:57 IST" finished-at="2022-04-01T19:08:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.RaJVtiger.TestScripts.CreateOrganigationTest@72b6cbcc]" name="closeBrowser" is-config="true" duration-ms="875" started-at="2022-04-01T19:08:59 IST" finished-at="2022-04-01T19:09:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.RaJVtiger.TestScripts.CreateOrganigationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
